@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SafeEvent - My Registration</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <header>
+
+        <h2>SafeEvent</h2>
+
+        <nav>
+
+            <a href="index.html">Home</a>
+
+            <a href="events.html">Events</a>
+
+            <a href="registration.html">My Registration</a>
+
+            <a href="admin.html">Admin</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Registration Search -->
+
+    <main class="status-page">
+
+        <div class="status-container">
+
+            <h1>My Registration</h1>
+
+            <p class="status-subtitle">
+                Enter your Registration ID to view your registration.
+            </p>
+
+
+            <div class="search-box">
+
+                <label for="registrationId">
+                    Registration ID
+                </label>
+
+                <input
+                    type="text"
+                    id="registrationId"
+                    placeholder="Example: SE-2026-1234"
+                >
+
+                <button onclick="checkRegistration()">
+                    Check Registration
+                </button>
+
+            </div>
+
+
+            <!-- Result -->
+
+            <div id="registrationResult"></div>
+
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 SafeEvent | College Event Registration Platform
+        </p>
+
+    </footer>
+
+    <script src="javascript/script.js"></script>
+
+</body>
+
+</html>

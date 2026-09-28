@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SafeEvent - Admin Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <header>
+
+        <h2>SafeEvent</h2>
+
+        <nav>
+
+            <a href="index.html">Home</a>
+
+            <a href="events.html">Events</a>
+
+            <a href="registration.html">My Registration</a>
+
+            <a href="admin.html">Admin</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Admin Dashboard -->
+
+    <main class="admin-page">
+
+        <h1>Admin Dashboard</h1>
+
+        <p class="admin-subtitle">
+            Manage events and monitor registrations.
+        </p>
+
+
+        <!-- Statistics -->
+
+        <div class="stats-container">
+
+            <div class="stat-card">
+
+                <div class="stat-icon">🎫</div>
+
+                <h2>4</h2>
+
+                <p>Total Events</p>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon">👥</div>
+
+                <h2 id="totalRegistrations">0</h2>
+
+                <p>Total Registrations</p>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon">🟢</div>
+
+                <h2>4</h2>
+
+                <p>Active Events</p>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon">📅</div>
+
+                <h2>500</h2>
+
+                <p>Total Seats</p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Event Overview -->
+
+        <section class="admin-section">
+
+            <h2>Event Overview</h2>
+
+            <div class="event-table">
+
+                <div class="table-row table-header">
+
+                    <span>Event</span>
+
+                    <span>Date</span>
+
+                    <span>Seats</span>
+
+                    <span>Status</span>
+
+                </div>
+
+
+                <div class="table-row">
+
+                    <span>💻 Tech Fest 2026</span>
+
+                    <span>Oct 10</span>
+
+                    <span>100</span>
+
+                    <span class="active">ACTIVE</span>
+
+                </div>
+
+
+                <div class="table-row">
+
+                    <span>🤖 AI Hackathon</span>
+
+                    <span>Oct 15</span>
+
+                    <span>50</span>
+
+                    <span class="active">ACTIVE</span>
+
+                </div>
+
+
+                <div class="table-row">
+
+                    <span>🎭 Cultural Fest</span>
+
+                    <span>Oct 20</span>
+
+                    <span>200</span>
+
+                    <span class="active">ACTIVE</span>
+
+                </div>
+
+
+                <div class="table-row">
+
+                    <span>🏆 Sports Meet</span>
+
+                    <span>Oct 25</span>
+
+                    <span>150</span>
+
+                    <span class="active">ACTIVE</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Recent Registrations -->
+
+        <section class="admin-section">
+
+            <h2>Recent Registration</h2>
+
+            <div id="adminRegistrations">
+
+                <p class="no-registration">
+                    No registrations yet.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 SafeEvent | College Event Registration Platform
+        </p>
+
+    </footer>
+
+
+    <script src="javascript/script.js"></script>
+
+</body>
+
+</html>
